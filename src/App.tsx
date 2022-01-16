@@ -5,15 +5,6 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 const theme = createTheme({
   components: {
      // Name of the component
-    MuiInputBase: {
-      styleOverrides: {
-        root: {
-           // CSS
-          backgroundColor: "#e1f5fe"
-        }
-      }
-    },
-     // Name of the component
     MuiInputLabel:{
       styleOverrides: {
         root: {
